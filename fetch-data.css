@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background for the page */
+}
+
+#content {
+    max-width: 600px; /* Limit the width of the content area */
+    margin: auto; /* Center the content container horizontally */
+    background: white; /* White background for the content box */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the content box */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 20px;
+}
+
+/* Styling for the list that will contain user names */
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding from the list */
+    margin: 0;
+}
+
+/* Styling for individual list items (user names) */
+li {
+    background-color: #eee; /* Light grey background for each list item */
+    margin: 8px 0; /* Vertical margin between list items */
+    padding: 10px;
+    border-radius: 4px; /* Slightly rounded corners for list items */
+    color: #555; /* Darker text for list items */
+}
+
+/* Styling for the initial loading/error message */
+#api-data {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    padding: 15px;
+}
